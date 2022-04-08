@@ -24,7 +24,6 @@ b = "Желтый"
 b1 = "желтый"
 c = "Красный"
 c1 = "красный"
-
 switch (color) {
     case a:
         alert("Едь!");
@@ -44,5 +43,6 @@ switch (color) {
     case c1:
         alert("Стой!");
         break;
+    default:
+        alert("Выберите правильный цвет!");
 }
-
